@@ -14,14 +14,14 @@ import org.springframework.context.annotation.Configuration;
 public class Customization {
     
     private String bgcolor;
-    private String fgcolor;
+    private String name;
 
-    public String getFGColor() {
-        return this.fgcolor;
+    public String getName() {
+        return this.name;
     }
 
-    public void setFGColor(String color) {
-        this.fgcolor = color;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getBGColor() {
@@ -34,7 +34,7 @@ public class Customization {
 
     public String toJSON() {
         Map<String,String> payload = new HashMap<>();
-        payload.put("fgcolor", this.fgcolor);
+        payload.put("name", this.name);
         payload.put("bgcolor", this.bgcolor);
 
         try {

@@ -75,5 +75,5 @@ metadata:
   name: k8s-microservices-demo-customize
 data:
   application.properties: |-
-    bean.fgcolor=red
-    bean.bgcolor=blue
+    bean.bgcolor=gray
+    bean.name=Kubernetes Demo 

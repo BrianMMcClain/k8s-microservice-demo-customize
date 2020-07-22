@@ -76,4 +76,4 @@ metadata:
 data:
   application.properties: |-
     bean.bgcolor=gray
-    bean.name=Kubernetes Demo 
+    bean.name=Kubernetes Demo

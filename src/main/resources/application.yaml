@@ -6,5 +6,5 @@ spring:
   cloud.kubernetes.reload.period: 1500
 
 bean:
-  name: Placeholder
+  message: Placeholder Message
   bgcolor: white

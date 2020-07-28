@@ -3,7 +3,9 @@ spring:
     name: k8s-microservices-demo-customize
   cloud:
     kubernetes:
+      config:
+        enabled: true
       reload:
         enabled: true
-        mode: polling
-        period: 5000
+        mode: event
+        strategy: refresh

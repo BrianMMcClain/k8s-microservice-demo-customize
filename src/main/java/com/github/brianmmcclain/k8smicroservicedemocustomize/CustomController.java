@@ -29,7 +29,7 @@ public class CustomController {
     @GetMapping("/info")
     public String getConfig() {
         Map<String,String> payload = new HashMap<>();
-        String profiles = String.join(", ", this.env.getActiveProfiles());
+        String profiles = "[" + String.join(", ", this.env.getActiveProfiles()) + "]";
         
         payload.put("profiles", profiles);
         

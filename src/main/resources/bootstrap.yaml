@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: k8s-microservices-demo-customize
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+        mode: polling
+        period: 5000

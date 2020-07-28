@@ -12,6 +12,7 @@ public class CustomController {
 
     @GetMapping("/")
     public String fullCustomizations() {
+        System.out.println(c.toJSON());
         return c.toJSON();
     }
 }

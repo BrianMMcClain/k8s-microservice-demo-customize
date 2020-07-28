@@ -2,8 +2,7 @@ spring:
   application.name: k8s-microservices-demo-customize
   cloud.kubernetes.reload.enabled: true
   cloud.kubernetes.reload.monitoring-config-maps: true
-  cloud.kubernetes.reload.mode: polling
-  cloud.kubernetes.reload.period: 1500
+  cloud.kubernetes.reload.mode: event
 
 bean:
   message: Placeholder Message

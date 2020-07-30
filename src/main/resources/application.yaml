@@ -1,11 +1,11 @@
-# management:
-#   endpoint:
-#     restart:
-#       enabled: true
-#     health:
-#       enabled: true
-#     info:
-#       enabled: true
+management:
+  endpoint:
+    restart:
+      enabled: true
+    health:
+      enabled: true
+    info:
+      enabled: true
 
 # bean:
 #   message: Placeholder Message

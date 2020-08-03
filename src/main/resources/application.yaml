@@ -6,7 +6,14 @@ management:
       enabled: true
     info:
       enabled: true
-
-# bean:
-#   message: Placeholder Message
-#   bgcolor: white
+spring:
+  application:
+    name: k8s-microservices-demo-customize
+  cloud:
+    kubernetes:
+      config:
+        enabled: true
+      reload:
+        enabled: true
+        mode: event
+        strategy: refresh
